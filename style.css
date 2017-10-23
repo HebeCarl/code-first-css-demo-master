@@ -1,0 +1,64 @@
+/* Write your styles here! */
+
+a{ 
+	color: red; 
+}
+
+h1 {
+text-transform: uppercase; 
+} 
+
+header#main-header
+
+{
+  padding: 5%;
+  line-height: 1;
+  color: #FF69B4;
+  position: relative;
+  font-family: 
+  z-index: 0;
+}
+
+header#main-header h1 {
+	font-family: Calibri;
+	font-size: 40px
+}
+
+header p.summary {
+	font-family: Calibri;
+	font-size: 20px
+}
+
+div.dates {
+	color: #ff00ff;
+}
+
+article#ada-lovelace p {
+	font-family: berlin sans fb demi;
+}
+
+article header img {
+	border: 0px solid #ff6666;
+}
+article#ada-lovelace > p {
+	font-size: 12px
+}
+
+article > p:nth-child(3) {
+	color: red;
+}
+
+div.topline h1, div.topline div.dates {
+	display: inline-block;
+}
+
+img {
+	margin: 20px;
+	padding: 20px;
+	padding-top: 20px;
+	float: right;
+}
+
+body {
+	background: pink;
+}
